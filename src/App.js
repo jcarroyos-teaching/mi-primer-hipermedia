@@ -3,23 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          Acá ya estoy editando el archivo App.js
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>Esta es mi app</h1>
+    <p>Hola mundo</p>
+    <img src='https://monoskop.org/images/thumb/b/b3/Ukeles_Mierle_Laderman_1973_Washing_Tracks_Maintenance_Outside.jpg/302px-Ukeles_Mierle_Laderman_1973_Washing_Tracks_Maintenance_Outside.jpg' ></img>
+    </>
   );
 }
 
